@@ -87,7 +87,7 @@ def aStarSearch(initLocation):
             bestPath.append(initLocation)
             bestPath.reverse()
             print("The best path is: {}".format(bestPath))
-            return bestPath
+            return ("The best path is: {}".format(bestPath))
         openList.remove(location)
         closedList.append(location)
     
